@@ -1,0 +1,43 @@
+/* styles.css (or your preferred CSS file) */
+
+/* Style for each record container */
+.record-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for record name */
+.record-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for action buttons (Delete and Edit) */
+.action-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-button {
+    background-color: #ff6347;
+    color: white;
+}
+
+.edit-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Style for action buttons on hover */
+.action-button:hover {
+    opacity: 0.8;
+}
